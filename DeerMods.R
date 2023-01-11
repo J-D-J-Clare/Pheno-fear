@@ -24,7 +24,7 @@ mTime2<-bam(formula = DEERTime~ te(X_coord, Y_coord, Day,
               IntEVIsc * CoyDet+
               IntEVIsc * wolfrange,
            family = tw(theta = NULL, link = "log", a = 1.01, b = 1.99), 
-           data = BehavsFrame_Cent_occu2, discrete = TRUE)
+           data = Behavs_Deer_Data, discrete = TRUE)
 
 
 
@@ -53,7 +53,7 @@ mForage2<-bam(formula = cbind(forage, npics) ~ te(X_coord, Y_coord, Day,
                IntEVIsc * CoyDet+
                IntEVIsc * wolfrange,
              family = quasibinomial, 
-             data = BehavsFrame_Cent_occu2, discrete = TRUE)
+             data = Behavs_Deer_Data, discrete = TRUE)
 
 
 mVig2<-bam(formula = cbind(vigilant, npics) ~ te(X_coord, Y_coord, Day, 
@@ -81,4 +81,4 @@ mVig2<-bam(formula = cbind(vigilant, npics) ~ te(X_coord, Y_coord, Day,
              IntEVIsc * CoyDet+
              IntEVIsc * wolfrange, 
           family = quasibinomial, 
-          data = BehavsFrame_Cent_occu2, discrete = TRUE)
+          data = Behavs_Deer_Data, discrete = TRUE)
