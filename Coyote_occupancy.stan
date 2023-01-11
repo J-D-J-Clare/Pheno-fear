@@ -15,8 +15,7 @@
       vector[nobs] DaySC;
       vector[nobs] DaySCsq;
       vector[nsites] Forest5km;             
-      vector[nsites] Forest;             
-      vector[nsites] Richness;          
+      vector[nsites] Forest;                      
       vector[nsites] Trail;            
       int<lower=0, upper=1> ymax[nsites];
       int from[nsites];
