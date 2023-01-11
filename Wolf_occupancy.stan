@@ -9,7 +9,6 @@
       vector[nobs] combdeer;
       vector[nobs] arwolf;
       vector[nobs] DailyEVI;
-      vector[nobs] ResEVI;
       vector[nobs] DailySnow;
       vector[nsites] Forest5km;             
       vector[nsites] Forest;             
