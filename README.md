@@ -1,6 +1,6 @@
 # Pheno-fear
 
-This repository contains novel code (and pending arrangement with agency collaborators, data) for submitted manuscript ECY22-0700. 
+This repository contains code and data for submitted manuscript ECY22-0700. 
 
 Contents at present:
 
@@ -18,4 +18,4 @@ DeerMods.R - Script containing model calls for deer behavioral response models.
 
 
 *Note*:
-Coordinates associated with deer data have been offset a small distance to preserve land-owner privacy. Parties interested in the true coordinates should get in touch.
+Coordinates associated with deer data have been randomly offset a small distance to preserve land-owner privacy. Parties interested in the true coordinates should get in touch.
